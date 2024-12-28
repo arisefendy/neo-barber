@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neo Barber</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">NEO BARBER</a>
+        </div>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <article id="home">
+          <section class="home-info">
+            <h1>NEO BARBER</h1>
+            <a href="#" class="btn-pesan">Pesan Online</a>
+          </section>
+
+          <div class="modal">
+            <div class="modal-container">
+              <a href="#" class="btn-close">X</a>
+              <h3>PESAN ONLINE</h3>
+              <form method="post">
+                <input type="text" id="name" name="name" placeholder="Nama" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="No. Telp"
+                />
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tulis pesan disini..."
+                ></textarea>
+                <button type="submit" id="btn-submit">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </article>
+
+        <article id="tentang">
+          <section class="tentang-info">
+            <h2>Tentang Kami</h2>
+            <p>
+              Selamat datang di <strong>NEO BARBER</strong>, didirikan pada
+              tahun 2020. Para barberman kami yang berpengalaman siap memberikan
+              potongan rambut dan perawatan pria berkualitas tinggi dalam
+              suasana yang stylish dan nyaman.
+              <br />
+              <br />
+              Nikmati perawatan terbaik untuk penampilan pria bersama kami!
+            </p>
+          </section>
+          <section class="tentang-img">
+            <img src="assets/images/barber-tools.jpg" alt="Barber Tools" />
+          </section>
+        </article>
+
+        <article id="layanan">
+          <h2>Layanan Kami</h2>
+          <section class="layanan-list">
+            <div class="layanan-card">
+              <div class="layanan-icon">
+                <img src="assets/images/icons/barber.png" alt="Icon Barber" />
+              </div>
+              <h4>Men's Haircut</h4>
+              <p>
+                Potong rambut pria yang sempurna. Gaya klasik dan modern
+                disesuaikan oleh barber ahli kami.
+              </p>
+              <p class="price">Mulai 25k</p>
+            </div>
+            <div class="layanan-card">
+              <div class="layanan-icon">
+                <img src="assets/images/icons/beard.png" alt="Icon Beard" />
+              </div>
+              <h4>Shaving</h4>
+              <p>
+                Merapikan atau membersihkan kumis dan jenggot dengan hasil yang
+                halus dan presisi setiap saat.
+              </p>
+              <p class="price">Mulai 20k</p>
+            </div>
+            <div class="layanan-card">
+              <div class="layanan-icon">
+                <img src="assets/images/icons/barber.png" alt="Icon Barber" />
+              </div>
+              <h4>Kids Haircut</h4>
+              <p>
+                Pengalaman potong rambut yang ramah dan nyaman untuk si kecil.
+              </p>
+              <p class="price">Mulai 20k</p>
+            </div>
+            <div class="layanan-card">
+              <div class="layanan-icon">
+                <img
+                  src="assets/images/icons/hair-color.png"
+                  alt="Icon Hair Color"
+                />
+              </div>
+              <h4>Coloring</h4>
+              <p>
+                Warnai rambutmu dengan sempurna sesuai dengan warna idaman-mu
+                dengan barberman kami yang sudah berpengalaman.
+              </p>
+              <p class="price">Mulai 80k</p>
+            </div>
+            <div class="layanan-card">
+              <div class="layanan-icon">
+                <img
+                  src="assets/images/icons/hair-stylish.png"
+                  alt="Icon Hair Stylish"
+                />
+              </div>
+              <h4>Hair Tattoo</h4>
+              <p>
+                Untuk kamu yang ingin mencari gaya rambut khas. Biarkan
+                barberman ahli kami membuat gaya rambut-mu seperti hasil
+                mahakarya.
+              </p>
+              <p class="price">Mulai 60k</p>
+            </div>
+            <div class="layanan-card">
+              <div class="layanan-icon">
+                <img
+                  src="assets/images/icons/hair-stylish.png"
+                  alt="Icon Hair Stylish"
+                />
+              </div>
+              <h4>Hair Repair Treatment</h4>
+              <p>
+                Treatment untuk rambut yang sudah rusak akibat bahan kimia yang
+                berfungsi untuk mengembalikan kesehatan rambut-mu.
+              </p>
+              <p class="price">Mulai 100k</p>
+            </div>
+          </section>
+        </article>
+
+        <article id="galeri">
+          <h2>Galeri Foto</h2>
+          <div class="wrapper">
+            <section class="slides">
+              <div class="images fade">
+                <img src="assets/images/gallery/barber-1.jpg" alt="Foto 1" />
+              </div>
+              <div class="images fade">
+                <img src="assets/images/gallery/barber-2.jpg" alt="Foto 2" />
+              </div>
+              <div class="images fade">
+                <img src="assets/images/gallery/barber-3.jpg" alt="Foto 3" />
+              </div>
+              <div class="images fade">
+                <img src="assets/images/gallery/barber-4.jpeg" alt="Foto 4" />
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+            <section class="slides-nav">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </section>
+          </div>
+        </article>
+
+        <article id="kontak">
+          <h2>Kontak Kami</h2>
+          <div class="row">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63284.95499415877!2d112.17711997761104!3d-7.541165481667161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78400b90ad2e7f%3A0x1802f012ac8caf27!2sJombang%2C%20Jombang%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1729411597678!5m2!1sen!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+            <div class="kontak-info">
+              <section class="alamat">
+                <h3>Alamat</h3>
+                <p>Jl. KH. Wahid Hasyim, Jombang - Jawa Timur</p>
+              </section>
+              <section class="jadwal">
+                <h3>Jadwal</h3>
+                <table>
+                  <tr>
+                    <td>Senin-Kamis</td>
+                    <td>11.00 - 20.00</td>
+                  </tr>
+                  <tr>
+                    <td>Sabtu-Minggu</td>
+                    <td>10.00 - 21.00</td>
+                  </tr>
+                  <tr>
+                    <td>Jumat</td>
+                    <td>Tutup</td>
+                  </tr>
+                </table>
+              </section>
+              <section class="phone">
+                <h3>Kontak</h3>
+                <p>+62 812 3456 7890</p>
+                <p>neobarber1@gmail.com</p>
+              </section>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile-card">
+          <figure>
+            <img
+              src="assets/images/author.png"
+              alt="Author photo"
+              width="150px"
+            />
+          </figure>
+          <div class="author-bio">
+            <h3>Muhammad Aris Efendi</h3>
+            <p>author</p>
+            <table>
+              <tr>
+                <th>Address</th>
+                <td>Jombang - East Java</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>muhammadaris482@gmail.com</td>
+              </tr>
+            </table>
+          </div>
+          <div class="author-sosmed">
+            <a href="https://www.linkedin.com/in/arisefendy" target="_blank"
+              ><img src="assets/images/icons/linkedin.png" alt="LinkedIn Icon"
+            /></a>
+            <a href="https://www.instagram.com/arisefndy/" target="_blank"
+              ><img
+                src="assets/images/icons/instagram.png"
+                alt="Instagram Icon"
+            /></a>
+            <a href="https://github.com/arisefendy" target="_blank"
+              ><img src="assets/images/icons/github.png" alt="GitHub Icon"
+            /></a>
+          </div>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        <strong>NEO BARBER</strong> &copy;2024 | Create with
+        <span>&hearts;</span> by
+        <a href="https://www.instagram.com/arisefndy/">Efendy</a>
+      </p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
